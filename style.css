@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.banner{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding: 100px;
+    background: #fff;
+    transition: 0.5s;
+}
+
+.secondsection, .thirdsection
+{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+.secondsection>div {
+    width: 100%;
+}
+.thirdsection{
+    width: 100%;
+   
+}
+.secondsection
+{
+    margin-right: 5%;
+}
+.secondsection .subsection2 h3
+{
+    font-size: 35px;
+    left: 50%;
+}
+.thirdsection
+{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.thirdsection #Portfolio .main-text .head
+{
+    font-size: 35px;
+    margin-left: 5%;
+    
+}
+.secondsection .subsection2 .purple_h
+{
+    left: 50%;
+    font-size: 1.5em;
+    color: orange;
+    transition: 0.5s;
+}
+.secondsection .subsection2 p{
+    font-size: 1.2em;
+    color: #333;
+margin: 10px 0;
+transition: 0.5s;
+
+}
+.secondsection .imgsection img
+{
+    border-radius: 50%;
+    margin-left: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 50%;
+    height: 50%;
+}
+
+.secondsection .b button
+{
+    position: relative;
+    background: orange;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 15px 35px;
+    font-size: 1.em;
+    letter-spacing: 0.05em;
+    margin-right: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 600;
+}
+
+.thirdsection .contact{
+    width:100%;
+    
+}
+
+header{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    display: flex;
+    padding: 20px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    color: #333;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 700;
+    transition: 0.5s;
+}
+header .logo span{
+    color: orange;
+    font-size: 2em;
+}
+header ul{
+    display: flex;
+    gap:40px;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2em;
+    color: #333;
+    transition: 0.5s;
+}
+.contactList{
+   
+    transition: 0.5s;
+    margin-top: 50px;
+    display: flex;
+    list-style-type: none;
+}
+.content .contactList ul li
+{
+    display: flex;
+    
+    gap:40px;
+    
+}
+
+.content .contactList ul li{
+    list-style: none;
+}
+
+.content .contactList ul li a
+{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2em;
+    color: #333;
+    transition: 0.5s;
+}
+
+.content .contactList img
+{
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+}
+
+.content{
+    position: relative;
+    max-width: 700px;
+}
+
+.content h2{
+    font-size: 5.5em;
+    color: #333;
+    transition: 0.5s;
+}
+.content h2 span{
+    color: orange;
+}
+.content p{
+font-size: 1.2em;
+color: #666;
+margin: 10px 0;
+transition: 0.5s;
+}
+
+.secondsection h5{
+    font-size: 1.2em;
+color: #666;
+margin: 10px 0;
+transition: 0.5s;
+}
+
+.row{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 100px 0;
+}
+.main-text{
+    padding-top:100px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+.main-text h1{
+    font-size: 60px;
+    line-height: 1;
+    text-align: center;
+}
+
+.portfolio-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 600px);
+    margin: 100px;
+    display: grid;
+    gap: 55px;
+}
+.row {
+    position:relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+    /* border: #333; */
+    flex-direction: column;
+    border: 1px solid rgb(108, 99, 99);
+    padding: 20px;
+    
+    margin:10px;
+    display: inline-block;
+    float:left;/*Add float left*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.projects{
+    color: #680657;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding: 40 40px;
+    font-size: 18px;
+}
+.layer h5{
+    color:black;
+    font-size:30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.layer p{
+    color: black;
+    font-size: 1rem;
+    line-height: 1.3;
+    padding-bottom: 50px;
+}
+.row:hover img{
+    transform: scale(1.2);
+}
+.row:hover .layer{
+    height: 100%;
+}
+.content button{
+    position: relative;
+    background: orange;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 15px 35px;
+    font-size: 1.25em;
+    letter-spacing: 0.05em;
+    margin-right: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 600;
+}
+.content button.chat{
+    background: transparent;
+    color: #333;
+}
+
+.contact{
+    width: 100%;
+    /* min-height: 100vh; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* margin: 100px 0; */
+    
+    
+}
+
+.contact-text h3{
+
+    font-size: 35px;
+    color: #333;
+    margin-left: 38%;
+    margin-top: 50px;
+}
+
+.contact-list{
+    margin-bottom: 3rem;
+}
+.contact-list li{
+    margin-bottom: 10px;
+    display: block;
+}
+.contact-list i{
+    display: inline-block;
+    /* color:blue; */
+    font-size: 20px;
+    font-weight: 600;
+    transition: all .40s ease;
+}
+.contact-list li a:hover{
+    transform: scale(1.01) translateY(-5px);
+    /* color:violet; */
+}
+.contact-icons i{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width:40px;
+    height: 40px;
+    background:transparent;
+    border:2px solid violet;
+    border-radius: 50%;
+    font-size:20px;
+    color:violet;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    transition: .5s ease;
+    opacity:0;
+    
+}
+.contact-form
+{
+    margin-top: 5%;
+}
+.contact-form button{
+    display: flex;
+    margin: 10px 20px 10px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+.contact-icons i:hover{
+    /* background: violet; */
+    color:black;
+    box-shadow: 0 0 20px violet;
+}
+.contact-form form{
+    position: relative;
+}
+.contact-form button{
+    position: relative;
+    background: orange;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 15px 35px;
+    font-size: 1.10em;
+    letter-spacing: 0.05em;
+    margin-left: 40%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 300;
+}
+.contact-form form input,form textarea{
+    border: 1px solid rgb(108, 99, 99);
+    outline:none;
+    width:50%;
+    padding: 18px;
+    margin-left: 20%;
+     /* background: rgb(152, 77, 223); */
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    color:rgb(8, 8, 8);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom:0.5rem;
+    border-radius:0.5rem;
+}
+.contact-form textarea{
+    resize:none;
+    height: 220px;
+}
+.dayNight{
+    position: absolute;
+    bottom: 30px;
+    right: 3%;
+    width: 60px;
+    height: 60px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 2em;
+}
+.dayNight ion-icon:nth-child(2),
+.banner_main.night .dayNight ion-icon:nth-child(1){
+    display: none;
+}
+.banner_main.night .dayNight ion-icon:nth-child(2){
+    display: block;
+}
+.banner_main.night{
+    background: #333;
+}
+.banner_main.night .dayNight{
+    color: #fff;
+    background: #444;
+}
+.banner_main.night header .logo,
+.banner_main.night .content h2,
+.banner_main.night .content p,
+.banner_main.night .content button.chat,
+.banner_main.night header ul li a{
+    color: #fff;
+}
